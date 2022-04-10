@@ -1,0 +1,64 @@
+body {
+  margin: 30px auto;
+  padding: 30px 60px 30px 60px;
+  max-width: 900px;
+  border: 1px solid #feffff;
+  box-shadow: 2px 5px 5px rgb(0, 0, 0, 0.2);
+}
+h1 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+hr {
+  border: 1px solid black;
+}
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
+div.date-time {
+  font-size: 22px;
+}
+span.condition {
+  top: 171px;
+  right: 590px;
+  font-size: 23px;
+}
+
+div.form {
+  top: 55px;
+}
+div.button {
+  top: 86px;
+}
+span.condition,
+div.form,
+div.button {
+  position: absolute;
+}
+div.form,
+div.button {
+  right: 565px;
+}
+div.col-6-forecast {
+  font-size: 45px;
+}
+div.row {
+  text-align: center;
+}
+div.card {
+  left: 67px;
+}
+#currentLocation {
+  position: relative;
+  left: 600px;
+  border-radius: none;
+  border: none;
+  background: none;
+  text-decoration: underline;
+}
+#currentLocation:hover {
+  color: #007bff;
+}
