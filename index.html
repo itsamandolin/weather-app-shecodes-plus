@@ -4,13 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App | Wireframe</title>
   </head>
   <body>
-    <h1>Hello Git</h1>
-    <div>
-      <a href="https://github.com/itsamandolin/tutorial">open-sourced</a> by
-      amanda
-    </div>
+ 
+    <div class="container">
+      <h1>
+       <div class="city-country" id="cityCountry">Bethany</div> 
+        <br />
+        <div class="date-time" id="dateTime">Feb 11th || 19:45</div>  
+      </h1>
+      <h2></h2>
+      <form id="search-form">
+          <div class="row">
+            <div class="col-9">
+              <input
+                type="text"
+                placeholder="type a city . . ."
+                autofocus="on"
+                class="form-control shadow-sm"
+                id="search-text-input"
+              />
+            </div>
+            <div class="col-3">
+              <input
+                type="submit"
+                value="search"
+                class="form-control btn btn-primary shadow-sm"
+              id="searchButton"
+              />
+            </div>
+          </div>
+        </form>
+        <button id="currentLocation">find my location</button>
+      <div class="row">
+        <div class="col-6-forecast" id="currentForecast">29°C
+        </div>
+
+      </div>
+      <hr />
+      <h6>
+      <div class="row">
+        <div class="col-4">High: 63°F / 17°C</div>
+        <div class="col-4">Low: 41°F / 5°C</div>
+        <div class="col-4">Feels like: 46°F / 7°C</div>
+      </div>
+      <hr />
+      <div>Next 5 days . . .</div>
+      <br />
+      <div class="row">
+        <div class="card" class="col-1" style="width: 8rem">
+          <div class="card-body">
+            <h5 class="card-title">Sat</h5>
+            <p class="card-text">
+            🌬<br />47°F / 8°F
+            </p>
+          </div>
+        </div>
+      <div class="card" class="col-1" style="width: 8rem">
+          <div class="card-body">
+            <h5 class="card-title">Sun</h5>
+            <p class="card-text">
+            ⛅<br />54°F / 12°F
+            </p>
+          </div>
+        </div>
+       <div class="card" class="col-1" style="width: 8rem">         
+          <div class="card-body">
+            <h5 class="card-title">Mon</h5>
+            <p class="card-text">
+              ☀<br />69°F / 20°F
+            </p>
+          </div>
+        </div>    
+       <div class="card" class="col-1" style="width: 8rem">         
+          <div class="card-body">
+            <h5 class="card-title">Tue</h5>
+            <p class="card-text">
+              ☀<br />72°F / 23°F
+            </p>
+          </div>
+        </div>
+       <div class="card" class="col-1" style="width: 8rem">         
+          <div class="card-body">
+            <h5 class="card-title">Wed</h5>
+            <p class="card-text">
+             🌩<br />71°F / 22°F
+            </p>
+          </div>
+        </div>
+    </h6> 
+  </div>
+  <div> <a href=""></a></div>
+      <script
+        src="src/script.js"></script>
+      </script>
   </body>
 </html>
