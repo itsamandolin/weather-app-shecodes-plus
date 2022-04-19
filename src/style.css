@@ -69,14 +69,3 @@ div.card {
   line-height: 1;
   font-weight: 400;
 }
-#currentLocation {
-  position: relative;
-  left: 600px;
-  border-radius: none;
-  border: none;
-  background: none;
-  text-decoration: underline;
-}
-#currentLocation:hover {
-  color: #007bff;
-}
